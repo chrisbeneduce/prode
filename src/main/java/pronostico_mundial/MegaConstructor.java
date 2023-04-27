@@ -12,9 +12,7 @@ public class MegaConstructor {
 	private static ListaPronosticos pronoList;
 
 	public MegaConstructor(String archivoDePronosticos, String archivoDeRondas) {
-		// (1) se construye una listas de todos los partidos de todas las rondas
 		LoadPartidos(archivoDeRondas); //LoadPartidos es una función que está abajo
-		// (2) Por otro lado tenemos la lista de los pronósticos de lxs participantes
 		pronoList = new ListaPronosticos(archivoDePronosticos);
 		if (pronoList.isFileOK()) //Si el archivoDePronosticos se cargó correctamente...
 		pronosticos.addAll(pronoList.getPronosticosEnlistados());

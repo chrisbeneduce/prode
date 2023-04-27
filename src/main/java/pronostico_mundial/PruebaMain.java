@@ -3,7 +3,6 @@ import java.util.ArrayList;
 
 public class PruebaMain {
 
-		//Tenemos un SuperObjeto (Mega) que se encarga de hacer todo.
 		public static MegaConstructor mega;
 		public static boolean hayArgs= true;
 		
